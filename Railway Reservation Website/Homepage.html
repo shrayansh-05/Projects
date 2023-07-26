@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          Railway Reservation system
+        </title>
+        <link rel="shortcut icon" href="SVGs/desktop solid.svg">
+
+        <style>
+            body {
+                background-image: url('Images/Passenger\ train\ at\ Jalgaon\ Junction\ railway\ station.jpg');
+                background-repeat: no-repeat;
+                background-size: 700px;
+                background-position-x: 331px;
+                background-position-y: 200px;
+            }
+        </style>
+        
+        <script>
+            function promptMessage() {
+                alert('Your ticket has been successfully booked, Happy Journey!');
+            }
+        </script>
+
+    </head>
+    <body style="background-color: lightgray;">
+
+        <a href="Meals.html" target="new" style="position:absolute; top: 133px; margin-left: 600px;">
+        <input type="button" value="Meals" style="padding: 9px 16px; cursor: pointer;
+        background-color: bisque; color: purple;
+        text-decoration: underline; font-family: Georgia, 'Times New Roman', Times, serif;"></a>
+
+        <a href="Holiday Packages.html" target="new" style="padding: 9px 16px; position:absolute; top: 125px; 
+        margin-left: 740px;">
+        <input type="button" value="Holiday Packages" style="padding: 9px 16px; cursor: pointer;
+        background-color: bisque; color: purple;
+        text-decoration: underline; font-family: Georgia, 'Times New Roman', Times, serif;"></a>
+
+        <a href="Service At Station.html" target="new" style="position:absolute; top: 134px; 
+        margin-left: 985px;">
+        <input type="button" value="Service at Station" style="padding: 9px 16px; cursor: pointer;
+        background-color: bisque; color: purple;
+        text-decoration: underline; font-family: Georgia, 'Times New Roman', Times, serif;"></a>
+
+        <a href="Contact Us.html" target="new" style="position:absolute; top: 134px; margin-left: 1200px;">
+        <input type="button" value="Contact Us" style="padding: 9px 16px; cursor: pointer;
+        background-color: bisque; color: purple;
+        text-decoration: underline; font-family: Georgia, 'Times New Roman', Times, serif;"> </a>
+        <i class="fas fa-id-card-alt"></i>
+        
+        <center>
+            <h2 style="width: 40%; color: red;
+            background-color: aliceblue;
+            text-align: center;
+            font-size: xx-large; margin-bottom: 249px; margin-top: -1px;">
+            Welcome to Railway Reservation System</h2>
+        </center>
+        
+        <main>                 
+            <div style="border: solid darkgreen;
+                background-color: gainsboro;
+                height: 321px;
+                margin-top: -190px;
+                width: 300px;">
+                <h3 style ="text-decoration: underline;
+                        text-align: center;
+                        color: brown;
+                        background-color: burlywood;">BOOK TICKET
+                </h3>
+                <p style= "text-align: center;">FROM</p>
+                <input style="background-color: azure; margin-left: 65px;" type="text">
+                <p style="text-align: center;">TO</p>
+                <input style="background-color: azure; margin-left: 65px;" type="text">
+                <p style="text-align: center;">DATE OF JOURNEY</p>
+                <input style="background-color: azure; margin-left: 75px;" type="date"> <br>                
+                <button style="background-color: antiquewhite; margin-top: 20px; margin-left: 110px; 
+                cursor: pointer;" onclick="promptMessage()">
+                   Go Ahead 
+                </button>       
+            </div>         
+        </main>
+    </body>
+</html> 
